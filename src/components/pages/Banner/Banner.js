@@ -32,14 +32,14 @@ const Banner = () => {
 			>
 				<SwiperSlide>
 					<div className="relative">
-						<img className="h-[600px] w-full" src={img3} alt="/" />
-						<div className="absolute text-rose-500 top-[25%] left-[17rem]">
+						<img className="h-[600px] w-full" src={img1} alt="/" />
+						<div className="absolute text-yellow-500 top-[25%] left-[17rem]">
 							<h3 data-aos="fade-right" className="text-8xl font-extrabold">
 								Living <br />
 								Sustainably
 							</h3>
 							<p data-aos="fade-left" className="text-7xl font-serif p-4">
-								Shouldn't be Expensive
+								Shouldn't Be Expensive
 							</p>
 						</div>
 					</div>

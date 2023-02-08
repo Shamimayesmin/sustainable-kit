@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Link, NavLink } from "react-router-dom";
+
 
 
 const Navbar = () => {
@@ -29,10 +29,10 @@ const Navbar = () => {
 						className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 					>
 						<li>
-							<a>Home</a>
+							<Link to="/">Home</Link>
 						</li>
                         <li>
-							<a>Shop</a>
+							<Link to='/shop'>Shop</Link>
 						</li>
                         <label tabIndex={0} className="btn btn-ghost btn-circle">
 						<div className="indicator">
@@ -63,10 +63,10 @@ const Navbar = () => {
 					
 
 					<li>
-						<a>Home</a>
+						<Link to='/'>Home</Link>
 					</li>
 					<li>
-						<a>Shop</a>
+						<Link to='/shop'>Shop</Link>
 					</li>
                     
 					<label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -94,9 +94,7 @@ const Navbar = () => {
 					
 				</ul>
 			</div>
-			{/* <div className="navbar-end">
-				<a className="btn">Get started</a>
-			</div> */}
+			
 		</div>
 	);
 };
