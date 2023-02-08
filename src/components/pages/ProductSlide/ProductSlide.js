@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import kit from '../../assates/images/kit.jpg'
+import kit from "../../assates/images/kit.jpg";
 import cup1 from "../../assates/images/cup1.jpg";
 import cup2 from "../../assates/images/cup3.jfif";
 
@@ -26,21 +26,13 @@ import { Pagination, Navigation } from "swiper";
 const ProductSlide = () => {
 	const [swiperRef, setSwiperRef] = useState(null);
 
-	
-	
-
 	return (
 		<>
 			<Swiper
-				// onSwiper={setSwiperRef}
 				slidesPerView={3}
-                loop={true}
+				loop={true}
 				// centeredSlides={true}
 				spaceBetween={30}
-				// pagination={{
-				// 	// type: "fraction",
-                //     clickable: true,
-				// }}
 				navigation={true}
 				modules={[Pagination, Navigation]}
 				className="mySwiper bg-gradient-to-l from-red-400"
@@ -48,6 +40,7 @@ const ProductSlide = () => {
 				<SwiperSlide>
 					<div>
 						<img className="h-80 w-full py-2 rounded-3xl" src={cup1} alt="" />
+
 						<div className="p-4">
 							<h2 className="text-center">Plant Based Reusable Cups</h2>
 							<p className="text-center">$ 2.39</p>
@@ -65,7 +58,11 @@ const ProductSlide = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<div>
-						<img className="w-full py-2 h-80 rounded-3xl" src={loofah1} alt="" />
+						<img
+							className="w-full py-2 h-80 rounded-3xl"
+							src={loofah1}
+							alt=""
+						/>
 						<div className="p-4">
 							<h2 className="text-center">Plant Based Reusable Cups</h2>
 							<p className="text-center">$ 2.39</p>
@@ -74,7 +71,11 @@ const ProductSlide = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<div>
-						<img className="w-full py-2 h-80 rounded-3xl" src={container2} alt="" />
+						<img
+							className="w-full py-2 h-80 rounded-3xl"
+							src={container2}
+							alt=""
+						/>
 						<div className="p-4">
 							<h2 className="text-center">Plant Based Reusable Cups</h2>
 							<p className="text-center">$ 2.39</p>
@@ -100,8 +101,6 @@ const ProductSlide = () => {
 					</div>
 				</SwiperSlide>
 			</Swiper>
-
-			
 		</>
 	);
 };

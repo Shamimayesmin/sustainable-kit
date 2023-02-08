@@ -1,8 +1,12 @@
 import React from "react";
+import { AiOutlineArrowDown } from 'react-icons/ai';
 
 const About = () => {
 	return (
 		<div className="py-20 bg-black text-white">
+			<h3>
+				<AiOutlineArrowDown className="text-amber-600 w-1/2 mx-auto mb-10 animate-bounce text-5xl font-bold"/>
+			</h3>
 			<h2 className="text-center text-4xl font-bold text-amber-600 ">About earthly</h2>
 			<div className="w-1/2 mx-auto mt-6" data-aos="fade-left">
             <p className="text-center items-center">
