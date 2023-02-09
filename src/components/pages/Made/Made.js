@@ -1,17 +1,18 @@
 import React from "react";
 import img1 from "../../assates/images/cup5.png";
-import img2 from "../../assates/images/container1-removebg-preview.png";
 import img3 from "../../assates/images/cup4.png";
 
 const Made = () => {
 	return (
-		<div className="p-5 bg-gradient-to-tr from-red-300">
+		<div className="p-3 hue-rotate-15 bg-gradient-to-tl from-red-300">
 			<div className="flex justify-center items-center">
 				<div
+				
 					data-aos="fade-right"
 					data-aos-offset="300"
 					data-aos-easing="ease-in-sine"
-					className="w-1/3 ml-24 mx-auto"
+					className="w-1/3 ml-24 mx-auto rounded-lg shadow-xl p-8 glass"
+					
 				>
 					<h2 className="text-4xl font-bold">BAMBOO AND WHEAT FIBRE</h2>
 					<p className="text-lg mt-5 font-semibold">
@@ -32,7 +33,7 @@ const Made = () => {
 				>
 					<img className="w-3/4 h-1/2 mx-auto p-0" src={img1} alt="" />
 				</div>
-				<div className="w-1/3 mr-20 " data-aos="zoom-in-left">
+				<div className="w-1/3 mr-20 rounded-lg shadow-xl p-8 glass" data-aos="zoom-in-left">
 					<h2 className="text-4xl font-bold">ORANGE FIBRE</h2>
 					<p className="mt-5 text-lg font-semibold">
 						Made from Orange peels and other organic matter left behind after

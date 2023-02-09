@@ -51,7 +51,7 @@ const ProductSlide = () => {
 					<div>
 						<img className="w-full py-2 h-80 rounded-3xl" src={brush1} alt="" />
 						<div className="p-4">
-							<h2 className="text-center">Plant Based Reusable Cups</h2>
+							<h2 className="text-center">Bamboo Toothbrush</h2>
 							<p className="text-center">$ 2.39</p>
 						</div>
 					</div>
@@ -64,7 +64,7 @@ const ProductSlide = () => {
 							alt=""
 						/>
 						<div className="p-4">
-							<h2 className="text-center">Plant Based Reusable Cups</h2>
+							<h2 className="text-center">Natural Bamboo Loofah</h2>
 							<p className="text-center">$ 2.39</p>
 						</div>
 					</div>
@@ -77,7 +77,7 @@ const ProductSlide = () => {
 							alt=""
 						/>
 						<div className="p-4">
-							<h2 className="text-center">Plant Based Reusable Cups</h2>
+							<h2 className="text-center">Plant Based Reusable Containers</h2>
 							<p className="text-center">$ 2.39</p>
 						</div>
 					</div>
@@ -86,7 +86,7 @@ const ProductSlide = () => {
 					<div>
 						<img className="w-full py-2 h-80 rounded-3xl" src={kit} alt="" />
 						<div className="p-4">
-							<h2 className="text-center">Plant Based Reusable Cups</h2>
+							<h2 className="text-center">Sustainability Starter Kit</h2>
 							<p className="text-center">$ 2.39</p>
 						</div>
 					</div>
@@ -95,7 +95,7 @@ const ProductSlide = () => {
 					<div>
 						<img className="w-full py-2 h-80 rounded-3xl" src={straw1} alt="" />
 						<div className="p-4">
-							<h2 className="text-center">Plant Based Reusable Cups</h2>
+							<h2 className="text-center">Reusable Bamboo Straws</h2>
 							<p className="text-center">$ 2.39</p>
 						</div>
 					</div>
